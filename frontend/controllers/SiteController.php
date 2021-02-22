@@ -116,6 +116,11 @@ class SiteController extends Controller
     {
         return $this->render('index');
     }
+
+    public function actionTestActionAdd2()
+    {
+        return $this->render('index');
+    }
     /**
      * Displays contact page.
      *
